@@ -1,0 +1,107 @@
+/* Genel Stil Ayarları */
+body {
+  font-family: 'Segoe UI', 'Open Sans', sans-serif;
+  background-color: #f8f9fa;
+  color: #2b2f36;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Modül Arka Plan Kontrastı */
+section.bg-tone-1 {
+  background-color: #f8f9fa;
+}
+
+section.bg-tone-2 {
+  background-color: #dee2e6;
+}
+
+/* Başlıklar */
+h2.fw-bold, h2 {
+  text-align: center;
+  font-size: 1.85rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+/* Paragraflar */
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #495057;
+  line-height: 1.7;
+}
+
+
+
+/* Modül Resimleri */
+img.module-img {
+  width: 266px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 0.75rem;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Diğer Görsel Ayarları */
+img.img-fluid {
+  max-width: 90%;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+img.module-img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Butonlar */
+.btn-primary {
+  background-color: #0077b6;
+  border: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background-color: #005f8c;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 119, 182, 0.3);
+}
+
+/* Responsive Buton */
+@media (max-width: 768px) {
+  .btn {
+    display: block;
+    margin: 1.5rem auto 0 auto;
+    text-align: center;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: #f8f9fa;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.95rem;
+}
+.module {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.module .btn {
+  display: inline-block;
+  margin-top: 1rem;
+}
